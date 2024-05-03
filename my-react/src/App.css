@@ -1,0 +1,78 @@
+body {
+  width: 40rem;
+  margin: auto;
+  font-family: sans-serif;
+  background-image: url('./img/background2.jpg');/* เปลี่ยนเป็นที่อยู่ของรูปภาพพื้นหลังของคุณ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pokemon-dropdown {
+  
+  font-size: 16px;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #e80000;
+  border-radius: 4px;
+  color: #333;
+ 
+}
+img {
+  width: 200px; /* กำหนดความกว้างของรูปภาพเป็น 200px */
+  height: 150px; /* ปรับสัดส่วนให้ความสูงของรูปภาพปรับตามสัดส่วนของความกว้าง */
+  
+ 
+ 
+}
+.pokemon-dropdown {
+  
+  font-size: 16px;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #e80000;
+  border-radius: 4px;
+  color: #333;
+ 
+}
+img {
+  width: 200px; /* กำหนดความกว้างของรูปภาพเป็น 200px */
+  height: 150px; /* ปรับสัดส่วนให้ความสูงของรูปภาพปรับตามสัดส่วนของความกว้าง */
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* แบ่งเป็นสองคอลัมน์เท่ากัน */
+  gap: 20px; /* ระยะห่างระหว่างแถวและคอลัมน์ */
+}
+
+
+
+
+.left-panel {
+  grid-column: 1; /* แสดงในคอลัมน์ที่หนึ่ง (ซ้าย) */
+  grid-row: 4; /* แสดงในแถวที่สอง (ลงมา) */
+}
+
+
+.right-panel {
+
+   grid-column: 4; /* แสดงในคอลัมน์ที่สอง (ขวา) */
+   grid-row: 3; /* แสดงในแถวที่สอง (ลงมา) */
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
